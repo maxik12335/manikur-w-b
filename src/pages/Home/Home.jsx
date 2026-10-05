@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="body">
       <section className="section main" id='main'>
-        <Navbar theme="Dark"/>
+        <Navbar theme="Light"/>
         <div className="container">
           <div className={classes.name}>
             <h1 className={classes.title}>ТАТЬЯНА ШИМИЧЕВА</h1>
@@ -23,28 +23,28 @@ const Home = () => {
       </section>
 
       <section className="section feedbacks" id='reviews'>
-        <Navbar  theme="Light"/>
+        <Navbar  theme="Dark"/>
         <div className="container">
           <SliderFeedback />
         </div>
       </section>
 
       <section className="section portfolio" id='works'>
-        <Navbar theme="Dark"/>
+        <Navbar theme="Light"/>
         <div className="container">
           <SliderPortfolio />
         </div>
       </section>
 
       <section className="section price" id='prices'>
-        <Navbar  theme="Light"/>
+        <Navbar  theme="Dark"/>
         <div className="container">
           <Price />
         </div>
       </section>
 
        <section className="section contacts" id='contacts'>
-        <Navbar theme="Dark"/>
+        <Navbar theme="Light"/>
         <div className="container">
           <Contacts />
         </div>

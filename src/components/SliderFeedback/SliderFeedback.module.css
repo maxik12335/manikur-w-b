@@ -51,11 +51,11 @@
 
 .button_arrow_l,
 .button_arrow_r {
+  fill: var(--color-w);
   opacity: var(--color-hover);
 }
 
 .button_arrow_l {
-  opacity: 0.4;
   transform: rotate(180deg);
   transition: 0.2s;
   width: 100%;
@@ -65,7 +65,6 @@
 
 .button_arrow_r {
   transition: 0.2s;
-  opacity: 0.4;
   width: 100%;
   height: 100%;
   display: block;

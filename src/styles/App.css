@@ -51,13 +51,13 @@ ul {
 }
 
 /* нечётные: тёмный фон, светлый текст */
-.section:nth-child(odd) {
+.section:nth-child(even) {
   background-color: var(--color-b);
   color: var(--color-w);
 }
 
 /* чётные: светлый фон, тёмный текст */
-.section:nth-child(even) {
+.section:nth-child(odd) {
   background-color: var(--color-w);
   color: var(--color-b);
 }

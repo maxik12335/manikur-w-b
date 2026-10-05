@@ -17,6 +17,7 @@
   font-family: var(--font-family-sans);
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
   /* Убираем любые эффекты при наведении, чтобы ничего не дергалось */
   transition: none;
 }

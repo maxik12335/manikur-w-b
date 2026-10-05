@@ -17,7 +17,7 @@
   height: 100%;
   border-radius: 4px;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
-  filter: brightness(0.9) grayscale(0.7) opacity(0.8);
+  filter: brightness(1) grayscale(0.7) opacity(1);
   transition: 0.5s;
 }
 
@@ -63,11 +63,11 @@
 
 .button_arrow_l,
 .button_arrow_r {
-  fill: var(--color-w);
+  fill: var(--color-b);
+  opacity: var(--color-hover);
 }
 
 .button_arrow_l {
-  opacity: 0.4;
   transform: rotate(180deg);
   transition: 0.2s;
   width: 100%;
@@ -75,19 +75,16 @@
   display: block;
 }
 
-.button_arrow_l:hover {
-  opacity: 1;
-}
-
 .button_arrow_r {
   transition: 0.2s;
-  opacity: 0.4;
   width: 100%;
   height: 100%;
   display: block;
 }
-.button_arrow_r:hover {
-  opacity: 1;
+
+.button_arrow_r:hover,
+.button_arrow_l:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 1200px) {
